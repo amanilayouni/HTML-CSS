@@ -1,0 +1,175 @@
+body{
+    padding: 0px;
+    max-width: 500px;
+    margin: auto;
+    background-color: black;
+
+}
+nav{
+    background-color: rgb(31, 30, 30);
+    border-radius: 8px;
+    padding: 16px;
+    padding-bottom: 0PX;
+}
+nav .top{
+    display: flex;
+    align-items: center;
+    border-bottom:  1PX solid rgb(150, 148, 148) ;
+    padding-bottom: 5px;
+    
+}
+nav  img{
+    width: 50px;
+    border-radius: 100px;
+    margin-right: 12px;
+    cursor: pointer;
+    
+}
+nav .top input{
+    width: 500px;
+    border-radius: 20PX;
+    padding:10px;
+    border: none ;
+    background-color:rgb(56, 54, 54);
+}
+nav .top input:hover{
+    background-color: rgb(77, 73, 73);
+    border-color: none;
+}
+
+nav .icons{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+nav .icons p {
+    cursor: pointer;
+    padding: 10PX;
+    padding-right:35px;
+    border-radius: 10px;
+    transition: 0.4s ease;
+    margin-top: 3px;
+    color: rgb(187, 182, 182);
+}
+nav .icons p:hover{
+    background-color: rgb(77, 73, 73);
+}
+nav .icons .p1 {
+    color: red;
+}
+nav .icons .p2 {
+    color:rgb(13, 219, 13);
+}
+nav .icons .p3 {
+    color: rgb(241, 241, 53);
+}
+
+.post .img1{
+   
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 12px;
+    cursor: pointer;
+    float: left;
+
+}
+.post .img2{
+    width: 10px;
+   
+}
+
+section{
+    background-color: rgb(31, 30, 30);
+    border-radius: 8px;
+    padding: 16px;
+    padding-bottom: 0PX;
+    margin-top: 17PX;
+    columns: #626262;
+
+    
+}
+
+.post .profile{
+    display: flex;
+    align-items: center;
+    
+}
+.post .profile a{
+   margin-top: 1px;
+   color: white;
+   text-decoration :none;
+
+
+  
+}
+.post  .bb{
+    float: right;
+    margin-top: -40px;
+    cursor: pointer;
+    transition:0.4s ease ;
+    padding: 5px;
+    color: rgb(129, 126, 126);
+
+   
+
+}
+
+ .post  .bb:hover{
+    background-color: rgb(77, 73, 73);
+    border-radius:100px;
+    text-align: center;
+    
+    
+  
+}
+.post .bbb{
+    color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+color: rgb(211, 204, 204);
+
+}
+.post  .immgg{
+    width: 100%;
+   }
+
+section .ff{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+margin-top: 50px;
+    border-top:  1PX solid rgb(104, 101, 101) ;
+
+}
+section .ff p {
+    cursor: pointer;
+    padding: 10PX;
+    padding-right:60px;
+   
+    border-radius: 10px;
+    transition: 0.4s ease;
+    margin-top: 3px;
+    color: rgb(158, 154, 154);
+}
+section .ff p:hover{
+    background-color: rgb(77, 73, 73);
+}
+section .aa {
+    float: right;
+    margin-top: 10px;
+}
+section .aa a{
+   
+    text-decoration: none;
+    color: rgb(155, 151, 151);
+    justify-content: space-between;
+  
+
+}
+section .aa a:hover{
+    border-bottom: 1px solid rgb(163, 159, 159);
+}
+
+
+
+
